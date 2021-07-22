@@ -132,15 +132,15 @@ footer {
     
     /* ======= MEDIA QUERIES =========== */
     
-@media (max-width:48em) { /* 768px breakpoint for landscape tablets */
+@media (max-width:46.9em) { /* 750px */
 body {
-    padding: 6rem 3rem 3rem;
+    padding: 4rem 3rem 3rem;
     min-width: 18.5em; /* 296px */
 }
 
     #container {
     width: 100%;
-    max-width: 31.25em; /* 500px */
+    max-width: 43.75em; /* 700px */
     display: grid;
     grid-template-areas: 'item1' 'item2' 'item3';
     justify-content: space-evenly;
