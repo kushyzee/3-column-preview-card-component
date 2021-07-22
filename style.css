@@ -2,8 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding:0;
-
-
 }
 
 html {
@@ -13,12 +11,18 @@ html {
 body {
     font-size: 1.6rem;
     background: hsl(0, 0%, 95%);
-    padding: 2rem;
+    padding: 25vh 3rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-family: 'Lexend Deca', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 img {
@@ -26,7 +30,7 @@ img {
     margin: 4.5rem 0 0;
 }
 
-h2 {
+h1 {
     color: hsl(0, 0%, 95%);
     font-size: 3.5rem;
     font-weight: 700;
@@ -120,7 +124,7 @@ p {
 }
 
 footer {
-    margin: 0.8rem 0 0 0;
+    margin: 1rem 0 0 0;
 }
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -128,14 +132,21 @@ footer {
     
     /* ======= MEDIA QUERIES =========== */
     
-@media (max-width:680px) {
+@media (max-width:48em) { /* 768px breakpoint for landscape tablets */
+body {
+    padding: 6rem 3rem 3rem;
+    min-width: 18.5em; /* 296px */
+}
+
     #container {
     width: 100%;
+    max-width: 31.25em; /* 500px */
     display: grid;
     grid-template-areas: 'item1' 'item2' 'item3';
     justify-content: space-evenly;
     align-content: space-evenly;
     grid-auto-columns: 100%;
+    margin: 0 auto;
     }
     
     #item-1 {
@@ -170,8 +181,8 @@ footer {
 }
     
     
-@media (min-width:1440px) {
-    #container {
+@media (min-width:90em) {
+     section {
         max-width: 1000px;
     }
     
