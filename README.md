@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub.com](https://github.com/kushyzee/3-column-preview-card-component)
-- Live Site URL: [kushyzee.gitHub](https://kushyzee.github.io/3-column-preview-card-component/)
+- Live Site URL: [view live site](https://kushyzee.github.io/3-column-preview-card-component/)
 
 ## My process
 
